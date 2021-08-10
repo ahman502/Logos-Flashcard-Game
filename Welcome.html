@@ -1,0 +1,98 @@
+<!--
+File: Logos Flashcards Game.html
+Project: CSIS 3020 (Mini Project)
+Author:  Natalia Ahmad
+History: Version 1 October 24th, 2020
+Text-editor used: Atom Version 1.51.0
+Browser: Code tested on Google Chrome Version 85.0.4183.102
+-->
+
+<!-- This is the welcome screen shown before starting the quiz -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title> Logos Flashcard Game </title>
+  <style type = "text/css">
+
+      @media only screen and (max-width: 1024px){}
+
+      body {
+        background-color: #E7ABA2;
+        font-family: Times;
+        color: white;
+        text-align: center;
+        margin: auto;
+        max-width: 100%;
+      }
+
+      body h1 {
+        font-size: 80px;
+        text-shadow: 4px 3px lightgrey;
+      }
+
+      p em {
+        font-weight: bolder;
+        font-size: 23px;
+      }
+
+      #p1 {
+        font-size: 20px;
+        border: 5px solid white;
+        width: 70%;
+        padding: 25px;
+        position: relative;
+        top: 30%; left: 12%;
+        text-align: center;
+        line-height: 35px;
+        background-color: rgba(255, 255, 255, 30%);
+      }
+
+      #p2 {
+        font-size: 28px;
+      }
+
+      .button {
+        background-color: white;
+        top: 50%; left: 50%;
+        border: none;
+        color: #E7ABA2;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px 150px;
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+        border-radius: 15px;
+        cursor: pointer;
+        text-shadow: 2px 2px lightgrey;
+      }
+
+      .button:hover{
+        background-color:lightgrey;
+        color: white;
+      }
+
+    </style>
+
+  </head>
+
+<body>
+  <h1> Welcome! </h1>
+
+  <p id = "p1"> This game helps you test your knowledge on different logos.
+  The game is simple. If you guess the right name of the logo shown,
+  you get a point, if you don't, then you don't get a point. See, I told you
+  it was simple. <br> <br> You may click the show answer button to study or review the answers.
+  If you get something wrong, you will get a message from the page. If you get
+  something right, you will get a point without any message displayed.
+  To begin, click the button below.
+  <br><br> <em> Good Luck and Have Fun! </em> </p>
+
+  <!-- Once the start button is clicked and the quiz starts, the user is takne to another page  -->
+  <a href = "Start_Game.html" class = "button button:hover" id = "p2"> S T A R T</a>
+  <!-- <p class = "button button:hover" id = "p2"> S T A R T </p> -->
+
+</body>
+</html>
